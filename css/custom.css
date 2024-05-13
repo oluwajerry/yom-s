@@ -62,7 +62,7 @@ hr.line {
 }
 
 .award_details{
-    background-image: url("/images/img12.png");
+    background-image: url("../images/img12.png");
     
     background-repeat: no-repeat;
     background-size:cover;
