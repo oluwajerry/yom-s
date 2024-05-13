@@ -5,8 +5,7 @@
     
 } 
  @media (max-width: 576px) {
-    .footer_menu ul,
-    .location_text ul {
+    .list-item {
         list-style-type: none;
         padding-left: 0;
     }
