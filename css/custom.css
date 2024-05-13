@@ -1,0 +1,344 @@
+/* body{
+    font-family: "Poppins", sans-serif;
+} */
+.nav-link:hover{
+    color:rgb(255, 145, 0);   
+}
+.nav-link{
+    margin-right: 20px;
+    font-weight:850;
+}
+
+/* Custom CSS for background image and carousel */
+.background-div {
+    position: relative;
+    height: 560px; /* Adjust height as needed */
+    background-image: url('/images/img11.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white; /* Text color */
+    overflow: hidden; /* Hide overflow to prevent carousel content from overflowing */
+}
+
+.carousel-inner {
+    text-align: left; /* Align text to the left within carousel */
+}
+
+.curved-button {
+    border-radius: 10px; /* Adjust the border radius to control the curve */ 
+    padding: 10px 20px;
+}
+
+.service {
+    width: 55%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr.line {
+    border: 5px solid rgb(248, 179, 4) ;
+    width: 100px;
+    background: rgb(248, 180, 12) !important;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.service_head {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    
+}
+.regBtn:hover{
+    background-color: white;
+}
+.section-grey{
+    background: rgb(240, 240, 240);
+}
+
+.award_details{
+    background-image: url("/images/img12.png");
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.fa-book{
+    background-color: goldenrod;
+}
+
+.team_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 70px;
+}
+
+.team_main {
+    width: 62%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.client_box {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #d8d8d7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 20px 50px 20px;
+}
+
+.team_img {
+    width: 80%;
+    text-align: center;
+}
+
+.client_name {
+    width: 100%;
+    font-size: 20px;
+    color: #2d2c2c;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.passages_text {
+    width: 100%;
+    font-size: 16px;
+    color: #2d2c2c;
+    margin: 0px;
+    text-align: center;
+}
+
+.team_icon {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team_social_icon {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+
+.team_social_icon ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.team_social_icon li {
+    float: left;
+}
+
+/* Custom CSS for text animation */
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .advert {
+    animation: fade 3s infinite;
+    color: rgba(255, 0, 0, 0.8); /* Set the initial color with opacity */
+    font-family: 'Pacifico', cursive; /* Stylish font */
+  }
+
+  
+  /* footer section start */
+
+.footer_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: goldenrod;
+    background-size: 100%;
+    padding: 90px 0px;
+}
+
+.useful_text {
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer_menu {
+    width: 100%;
+    float: left;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_menu li {
+    font-size: 16px;
+    color: #ededec;
+}
+
+.footer_menu li a {
+    color: #ededec;
+}
+
+.footer_menu li a:hover {
+    color: rgb(68, 67, 67)
+}
+
+.dummy_text {
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.location_text {
+    width: 100%;
+    float: left;
+}
+
+.location_text ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.location_text li {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px 0px 5px 0px;
+}
+
+.location_text li a {
+    color: #ffffff;
+}
+
+.location_text li a:hover {
+    color: rgb(68, 67, 67);
+}
+
+.padding_left_10 {
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.footer_social_icon {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer_social_icon ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.footer_social_icon li {
+    float: left;
+}
+
+.footer_social_icon li a {
+    float: left;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #252525;
+    border-radius: 100%;
+    font-size: 19px;
+    margin-right: 5px;
+    width: 44px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer_social_icon li a:hover {
+    background-color: goldenrod;
+    color: #ffffff;
+}
+
+.update_mail {
+    color: #3b3b3b;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 10px 20px 0px 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 20px;
+    border: 0px;
+}
+
+textarea#comment.update_mail::placeholder {
+    color: #3b3b3b;
+}
+
+.subscribe_bt {
+    width: 70px;
+    float: left;
+    padding-top: 30px;
+}
+
+.subscribe_bt a {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0px;
+    background-color: rgb(68, 67, 67);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subscribe_bt a:hover {
+    color: #363636;
+    background-color: #fefefd;
+}
+
+/* copyright section start */
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: black;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+
+
