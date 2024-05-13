@@ -13,7 +13,7 @@
 .background-div {
     position: relative;
     height: 560px; /* Adjust height as needed */
-    background-image: url('/images/img11.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-image: url('./images/img11.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
     display: flex;
