@@ -7,8 +7,7 @@
 } 
 
 @media screen and (max-width:576px) {
-
-    .footer_section{
+    .txtcontent{
         margin-left: 50px;
     }
     
